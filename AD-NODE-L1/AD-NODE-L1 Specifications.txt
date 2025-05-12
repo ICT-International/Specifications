@@ -3,7 +3,7 @@ AD-NODE-L1 Specifications
 
 ADLA3:
 	Sensor Inputs:
-		2 x Analog Voltage sensor inputs SE, 0-1.5volts, Input Impedance: 400 to 600megaohms typically.
+		2 x Analog Voltage sensor inputs SE, 0-3.0volts, Input Impedance: 400 to 600megaohms typically (Input voltage range validated May 2025).
 		1 x NTC Thermistor, typically suitable for 10kohm @ 25degrees C thermistor, Beta value/constants change at the same time for both thermistors.
 		1 x 4-20mA input, with 12volt @ 30mA MAX supply power.
 		4-20mA sensor power settling time 1 to 10 seconds, in 1second steps, note sensor power generated only during measurement period)
@@ -22,7 +22,7 @@ ADLA3:
 
 ADLA2:
 	Sensor Inputs:
-		1 x Analog Voltage sensor input SE, 0-3volts or 0-16.5volts (software setting switch)
+		1 x Analog Voltage sensor input SE, 0-3.0volts or 0-16.5volts (software setting switch)
 		2 x NTC Thermistors, suitable for 10kohm @ 25degrees C thermistor, Beta value/constants change at the same time for both thermistors.
 		1 x 4-20mA input, with 12volt @ 30mA MAX supply power.
 		4-20mA sensor power settling time 1 to 10 seconds, in 1second steps, note sensor power generated only during measurement period)
@@ -41,7 +41,7 @@ ADLA2:
 
 ADLA1:
 	Sensor Inputs:
-		1 x Analog Voltage sensor input SE, 0-3volts or 0-16.5volts (software setting switch) 
+		1 x Analog Voltage sensor input SE, 0-3.0volts or 0-16.5volts (software setting switch) 
 		2 x NTC Thermistors, suitable for 10kohm @ 25degrees C thermistor, Beta value/constants change at the same time for both thermistors.
 		1 x 4-20mA input, with 12volt @ 30mA MAX supply power.
 		4-20mA sensor power settling time 1 to 10 seconds, in 1second steps, note sensor power generates only during measurement period)
