@@ -10,6 +10,7 @@ ADLA3:
 	Additional Features:
 		Accelerometer to derive the orientation of the node box.
 		Powered via user replaceable 3 x AA batteries, suggested L91 Lithium
+		Constant 3.000volt power source (two wire ports) allowing up to 15mA max (Note: not protected against overpower.)
 	LoRa/LoRaWAN: 
 		LoRa MAC Version: 1.0.2 (With RP001 Regional Parameters 1.0.2 revision B)
 		Supports Class A (Class B and C Not Supported)
