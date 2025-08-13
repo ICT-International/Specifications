@@ -1,8 +1,14 @@
-	LoRa/LoRaWAN: 
+Measurement:
+	measuring/reporting period range:
+		Typical: 600 to 900seconds
+		Absolute Minimum: 120seconds
+
+LoRa/LoRaWAN: 
 		LoRa MAC Version: 1.0.2 (With RP001 Regional Parameters 1.0.2 revision B)
 		Supports Class A (Class B and C Not Supported)
 		OTAA Supported: Yes
 		ABP Supported: Not Validated.
 		ADR Supported: Yes
 		Confirmed Messaging Supported: Yes, subject to local laws, set to disabled by default.
+
 		Sub Bands Supported for AU915 and US915: FSB1 to FSB8.
