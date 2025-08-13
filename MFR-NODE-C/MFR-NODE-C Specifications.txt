@@ -1,0 +1,4 @@
+Measurement:
+	measuring/reporting period range:
+		Typical: 600 to 900seconds
+		Absolute Minimum: 120seconds
