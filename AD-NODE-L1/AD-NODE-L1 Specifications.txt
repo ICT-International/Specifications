@@ -3,56 +3,57 @@ AD-NODE-L1 Specifications
 
 ADLA3:
 	Sensor Inputs:
-		2 x Analog Voltage sensor inputs SE, 0-3.0volts, Input Impedance: 400 to 600kiloohms typically (Both Inputs validated May 2025).
-		1 x NTC Thermistor, typically suitable for 10kohm @ 25degrees C thermistor, Beta value/constants change at the same time for both thermistors.
-		1 x 4-20mA input, with 12volt @ 30mA MAX supply power.
-		4-20mA sensor power settling time 1 to 10 seconds, in 1second steps, note sensor power generated only during measurement period)
+		* 2 x Analog Voltage sensor inputs SE, 0-3.0volts, Input Impedance: 400 to 600kiloohms typically (Both Inputs validated May 2025).
+		* 1 x NTC Thermistor, typically suitable for 10kohm @ 25degrees C thermistor, Beta value/constants change at the same time for both thermistors.
+		* 1 x 4-20mA input, with 12volt @ 30mA MAX supply power.
+		* 4-20mA sensor power settling time 1 to 10 seconds, in 1second steps, note sensor power generated only during measurement period)
 	Additional Features:
-		Accelerometer to derive the orientation of the node box.
-		Powered via user replaceable 3 x AA batteries, suggested L91 Lithium
-		Constant 3.000volt power source (two wire ports) allowing up to 15mA max (Note: not protected against overpower.)
+		* Accelerometer to derive the orientation of the node box.
+		* Powered via user replaceable 3 x AA batteries, suggested L91 Lithium
+		* Constant 3.000volt power source (two wire ports) allowing up to 15mA max (Note: not protected against overpower.)
 	LoRa/LoRaWAN: 
-		LoRa MAC Version: 1.0.2 (With RP001 Regional Parameters 1.0.2 revision B)
-		Supports Class A (Class B and C Not Supported)
-		OTAA Supported: Yes
-		ABP Supported: Not Validated.
-		ADR Supported: Yes
-		Confirmed Messaging Supported: Yes, subject to local laws, set to disabled by default.
-		Sub Bands Supported for AU915 and US915: FSB1 to FSB8.
+		* LoRa MAC Version: 1.0.2 (With RP001 Regional Parameters 1.0.2 revision B)
+		* Supports Class A (Class B and C Not Supported)
+		* OTAA Supported: Yes
+		* ABP Supported: Not Validated.
+		* ADR Supported: Yes
+		* Confirmed Messaging Supported: Yes, subject to local laws, set to disabled by default.
+		* Sub Bands Supported for AU915 and US915: FSB1 to FSB8.
 
 
 ADLA2:
 	Sensor Inputs:
-		1 x Analog Voltage sensor input SE, 0-3.0volts or 0-16.5volts (software setting switch)
-		2 x NTC Thermistors, suitable for 10kohm @ 25degrees C thermistor, Beta value/constants change at the same time for both thermistors.
-		1 x 4-20mA input, with 12volt @ 30mA MAX supply power.
-		4-20mA sensor power settling time 1 to 10 seconds, in 1second steps, note sensor power generated only during measurement period)
+		* 1 x Analog Voltage sensor input SE, 0-3.0volts or 0-16.5volts (software setting switch)
+		* 2 x NTC Thermistors, suitable for 10kohm @ 25degrees C thermistor, Beta value/constants change at the same time for both thermistors.
+		* 1 x 4-20mA input, with 12volt @ 30mA MAX supply power.
+		* 4-20mA sensor power settling time 1 to 10 seconds, in 1second steps, note sensor power generated only during measurement period)
 	Additional Features:
-		Accelerometer to derive the orientation of the node box.
-		Powered via user replaceable 3 x AA batteries, suggested L91 Lithium
+		* Accelerometer to derive the orientation of the node box.
+		* Powered via user replaceable 3 x AA batteries, suggested L91 Lithium
 	LoRa/LoRaWAN: 
-		LoRa MAC Version: 1.0.2 (With RP001 Regional Parameters 1.0.2 revision B)
-		Supports Class A (Class B and C Not Supported)
-		OTAA Supported: Yes
-		ABP Supported: Not Validated.
-		ADR Supported: Yes
-		Confirmed Messaging Supported: Yes, subject to local laws, set to disabled by default.
-		Sub Bands Supported for AU915 and US915: FSB1 to FSB8.
+		* LoRa MAC Version: 1.0.2 (With RP001 Regional Parameters 1.0.2 revision B)
+		* Supports Class A (Class B and C Not Supported)
+		* OTAA Supported: Yes
+		* ABP Supported: Not Validated.
+		* ADR Supported: Yes
+		* Confirmed Messaging Supported: Yes, subject to local laws, set to disabled by default.
+		* Sub Bands Supported for AU915 and US915: FSB1 to FSB8.
 
 
 ADLA1:
 	Sensor Inputs:
-		1 x Analog Voltage sensor input SE, 0-3.0volts or 0-16.5volts (software setting switch) 
-		2 x NTC Thermistors, suitable for 10kohm @ 25degrees C thermistor, Beta value/constants change at the same time for both thermistors.
-		1 x 4-20mA input, with 12volt @ 30mA MAX supply power.
-		4-20mA sensor power settling time 1 to 10 seconds, in 1second steps, note sensor power generates only during measurement period)
+		* 1 x Analog Voltage sensor input SE, 0-3.0volts or 0-16.5volts (software setting switch) 
+		* 2 x NTC Thermistors, suitable for 10kohm @ 25degrees C thermistor, Beta value/constants change at the same time for both thermistors.
+		* 1 x 4-20mA input, with 12volt @ 30mA MAX supply power.
+		* 4-20mA sensor power settling time 1 to 10 seconds, in 1second steps, note sensor power generates only during measurement period)
 	Additional Features:
-		Powered via user replaceable 3 x AA batteries, suggested L91 Lithium
+		* Powered via user replaceable 3 x AA batteries, suggested L91 Lithium
 	LoRa/LoRaWAN: 
-		LoRa MAC Version: 1.0.2 (With RP001 Regional Parameters 1.0.2 revision B)
-		Supports Class A (Class B and C Not Supported)
-		OTAA Supported: Yes
-		ABP Supported: Not Validated.
-		ADR Supported: Yes
-		Confirmed Messaging Supported: Yes, subject to local laws, set to disabled by default.
-		Sub Bands Supported for AU915 and US915: FSB1 to FSB8.
+		* LoRa MAC Version: 1.0.2 (With RP001 Regional Parameters 1.0.2 revision B)
+		* Supports Class A (Class B and C Not Supported)
+		* OTAA Supported: Yes
+		* ABP Supported: Not Validated.
+		* ADR Supported: Yes
+		* Confirmed Messaging Supported: Yes, subject to local laws, set to disabled by default.
+		* Sub Bands Supported for AU915 and US915: FSB1 to FSB8.
+
