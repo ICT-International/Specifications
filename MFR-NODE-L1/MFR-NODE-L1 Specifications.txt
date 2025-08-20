@@ -1,14 +1,27 @@
-Measurement:
-	measuring/reporting period range:
-		Typical: 600 to 900seconds
-		Absolute Minimum: 120seconds
+MNLA4 (Hardware Revision R4-0)
+		Measurement & Transmission:
+			Measuring/Reporting period range:
+			Typical: 600 to 900 seconds
+			Absolute Minimum: 120 seconds (Subject to power and RF Duty cycle limits)
 
-LoRa/LoRaWAN: 
-		LoRa MAC Version: 1.0.2 (With RP001 Regional Parameters 1.0.2 revision B)
-		Supports Class A (Class B and C Not Supported)
-		OTAA Supported: Yes
-		ABP Supported: Not Validated.
-		ADR Supported: Yes
-		Confirmed Messaging Supported: Yes, subject to local laws, set to disabled by default.
+		Sensors and Inputs:
+			2 x SDI-12 
+				10 x Programming slots for controlling/measuring sensors
+				Physical Ports with shared bus driver
+				12Volt DC Sensor Power persistent or on demand
+			4 x Analog Single Ended 0 - 3.0volt input range
+				Selectable 2.5volt, 5volt and 12volt Excitation Power (persistent or on demand follows SDI spec)
+			4x Pulse Counter
+				Normally Open / Internally pulled up to 3.0volts
+				3.0volt persistent power available.
+			1 x CS506 FireStick
 
-		Sub Bands Supported for AU915 and US915: FSB1 to FSB8.
+		LoRa/LoRaWAN: 
+			LoRa MAC Version: 1.0.2 (With RP001 Regional Parameters 1.0.2 revision B)
+			Supports Class A (Class B and C Not Supported)
+			OTAA Supported: Yes
+			ABP Supported: Not Validated
+			ADR Supported: Yes
+			Confirmed Messaging Supported: Yes, subject to local laws, set to disabled by default
+			Sub Bands Supported for AU915 and US915: FSB1 to FSB8
+
