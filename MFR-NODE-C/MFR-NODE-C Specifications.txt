@@ -1,4 +1,38 @@
-Measurement:
-	measuring/reporting period range:
-		Typical: 600 to 900seconds
-		Absolute Minimum: 120seconds
+MNCM4 (Hardware Revision R4-0)
+		Measurement & Transmission:
+			Measuring/Reporting period range:
+				Typical: 600 to 900 seconds
+				Absolute Minimum: 120 seconds (Subject to power and RF Duty cycle limits)
+
+		Sensors and Inputs:
+			* 2 x SDI-12 
+				* 10 x Programming slots for controlling/measuring sensors
+				* Physical Ports with shared bus driver
+				* 12Volt DC Sensor Power persistent or on demand
+			* 4 x Analog Single Ended 0 - 3.0volt input range
+				* Selectable 2.5volt, 5volt and 12volt Excitation Power (persistent or on demand follows SDI spec)
+			* 4x Pulse Counter
+				* Normally Open / Internally pulled up to 3.0volts
+				* 3.0volt persistent power available.
+			* 1 x CS506 FireStick
+
+		Cellular Supported Features/Settings:
+			* LTE-M CAT-M1 and NB-IoT NB2
+			* BG95-M6 Modem
+			* APN
+			* Operator Code / MCC+MNC
+			  Code needs to be set for operation, E.g. Telstra 4G Network: 50501
+			* APN Username
+			* APN Password
+			* Diagnostics: Not Supported
+			* Automatic Cell tower time synchronisation for MQTT message preparation (UTC Time)
+		
+		MQTT Supported Features/Settings:
+			* MQTT Host Name
+			* MQTT Port Number 1883 or 8883
+			* MQTT ClientID
+			* MQTT Username
+			* MQTT Password
+			* MQTT Topic-Publish
+		Microsoft Azure IoTHUb Support:
+			* SharedAccessKey Mode: Supported
