@@ -34,5 +34,9 @@ MNCM4 (Hardware Revision R4-0)
 			* MQTT Username
 			* MQTT Password
 			* MQTT Topic-Publish
-		Microsoft Azure IoTHUb Support:
-			* SharedAccessKey Mode: Supported
+		Microsoft Azure IoTHub Support:
+			* SharedAccessKey: Supported
+			* Requires the use of symmetric key authentication thus has a device connection string with the following pattern:
+				HostName=<IOT_HUB_NAME>;DeviceId=<DEVICE_NAME>;SharedAccessKey=<PRIMARY_OR_SECONDARY_KEY>
+				E.G.	mqtt azureconn HostName=mycloudserver.com;DeviceId=MNCM4xxxx;SharedAccessKey=8Z1Yid4K25AU0pXlGadH0iIR9U9or5DUmwwQ4I0MFo=
+			* Reference: https://learn.microsoft.com/en-us/azure/iot-hub/create-connect-device?tabs=portal
