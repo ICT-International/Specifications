@@ -19,6 +19,16 @@ MNCM4 (Hardware Revision R4-0)
 		Cellular Supported Features/Settings:
 			* LTE-M CAT-M1 and NB-IoT NB2
 			* BG95-M6 Modem
+				Bands Supported through Cat M1 Mode:
+					B1/B2/B3/B4/B5/B8/
+					B12/B13/B18/B19/
+					B20/B25/B26/B27/
+					B28/B66/B85
+				Bands Supported through Cat NB2 Mode:
+					B1/B2/B3/B4/B5/B8/
+					B12/B13/B18/B19/
+					B20/B25/B28/B66/
+					B71/B85
 			* APN
 			* Operator Code / MCC+MNC
 			  Code needs to be set for operation, E.g. Telstra 4G Network: 50501
@@ -40,3 +50,4 @@ MNCM4 (Hardware Revision R4-0)
 				HostName=<IOT_HUB_NAME>;DeviceId=<DEVICE_NAME>;SharedAccessKey=<PRIMARY_OR_SECONDARY_KEY>
 				E.G.	mqtt azureconn HostName=mycloudserver.com;DeviceId=MNCM4xxxx;SharedAccessKey=8Z1Yid4K25AU0pXlGadH0iIR9U9or5DUmwwQ4I0MFo=
 			* Reference: https://learn.microsoft.com/en-us/azure/iot-hub/create-connect-device?tabs=portal
+
