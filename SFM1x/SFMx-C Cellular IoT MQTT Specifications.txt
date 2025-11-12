@@ -4,6 +4,16 @@ UCMI Firmware Version(s) ≥r1-0-16:
 	Cellular Supported Features/Settings:
 		* LTE-M CAT-M1 and NB-IoT NB2
 		* BG95-M6 Modem
+			Bands Supported through Cat M1 Mode:
+				B1/B2/B3/B4/B5/B8/
+				B12/B13/B18/B19/
+				B20/B25/B26/B27/
+				B28/B66/B85
+			Bands Supported through Cat NB2 Mode:
+				B1/B2/B3/B4/B5/B8/
+				B12/B13/B18/B19/
+				B20/B25/B28/B66/
+				B71/B85
 		* APN (Can be Blank for Networks that require it).
 		* Operator Code / MCC+MNC
 		  Code needs to be set for operation, E.g. Telstra 4G Network: 50501
