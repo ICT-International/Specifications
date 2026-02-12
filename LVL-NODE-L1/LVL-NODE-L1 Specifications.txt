@@ -4,10 +4,10 @@ LVL-NODE-L1 Specifications
 LVLA2:
 	Sensor Inputs:
 		* 1 x MaxBotix ultrasonic sensor.
-			* Includes a custom Brass adaptor + Fixing Nut to allow easy install to tanks, brackets.
-			* The rear chamber is factory sealed to protected against water and dust.
+			* Includes a custom Brass adaptor + Fixing Nut to allow easy install to tanks, troughs and brackets.
+			* The rear chamber is factory sealed to protect against water and dust.
 			* 42kHz ultrasonic sensor measures distance to objects.
-			* IP67 Rated.
+			* IP67 Rated transducer.
 			
 	Installation Notes:
 		* The ultrasonic sensor must be installed at height that maintains a minimum distance of 500mm from the Sensor to the top of the liquid at its maximum.
@@ -30,4 +30,5 @@ LVLA2:
 		* ADR Supported: Yes
 		* Confirmed Messaging Supported: Yes, subject to local laws, set to disabled by default.
 		* Sub Bands Supported for AU915 and US915: FSB1 to FSB8.
+
 
