@@ -4,7 +4,6 @@ LVL-NODE-L1 Specifications
 LVLA2:
 	Sensor Inputs:
 		* 1 x MaxBotix ultrasonic sensor.
-			Sensor Specification:
 			* Includes a custom Brass adaptor + Fixing Nut to allow easy install to tanks, brackets.
 			* The rear chamber is factory sealed to protected against water and dust.
 			* 42kHz ultrasonic sensor measures distance to objects.
@@ -31,3 +30,4 @@ LVLA2:
 		* ADR Supported: Yes
 		* Confirmed Messaging Supported: Yes, subject to local laws, set to disabled by default.
 		* Sub Bands Supported for AU915 and US915: FSB1 to FSB8.
+
