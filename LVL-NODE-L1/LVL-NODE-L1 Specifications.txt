@@ -1,0 +1,33 @@
+LVL-NODE-L1 Specifications
+-------------------------
+
+LVLA2:
+	Sensor Inputs:
+		* 1 x MaxBotix ultrasonic sensor.
+			Sensor Specification:
+			* Includes a custom Brass adaptor + Fixing Nut to allow easy install to tanks, brackets.
+			* The rear chamber is factory sealed to protected against water and dust.
+			* 42kHz ultrasonic sensor measures distance to objects.
+			* IP67 Rated.
+			
+	Installation Notes:
+		* The ultrasonic sensor must be installed at height that maintains a minimum distance of 500mm from the Sensor to the top of the liquid at its maximum.
+
+	Additional Features:
+		* The ultrasonic sensor is intended to be mounted vertically above the target fluid.
+		* Measurement range: 0.5metres up to 10 metres, ±1 cm precision.
+		* IP65 Rated Polycarbonate Enclosure, 95×75×35 mm, 300g.
+		* Runs from 4 x non-rechargeable L91 Lithium Energizer AA Batteries.
+		* Reporting interval minimum: 15minutes (900seconds).
+		* Reporting interval standard (preconfigured): 60minutes (3600seconds).
+		* Power Consumption: Up to 120mA (transmitting), Below 5uA (sleeping).
+		* Operation Temperature Range: -20°C to +60°C
+			
+	LoRa/LoRaWAN: 
+		* LoRa MAC Version: 1.0.2 (With RP001 Regional Parameters 1.0.2 revision B)
+		* Supports Class A (Class B and C Not Supported)
+		* OTAA Supported: Yes
+		* ABP Supported: Not Validated.
+		* ADR Supported: Yes
+		* Confirmed Messaging Supported: Yes, subject to local laws, set to disabled by default.
+		* Sub Bands Supported for AU915 and US915: FSB1 to FSB8.
