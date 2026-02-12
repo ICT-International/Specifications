@@ -30,5 +30,3 @@ LVLA2:
 		* ADR Supported: Yes
 		* Confirmed Messaging Supported: Yes, subject to local laws, set to disabled by default.
 		* Sub Bands Supported for AU915 and US915: FSB1 to FSB8.
-
-
