@@ -38,13 +38,19 @@ MNCM4 (Hardware Revision R4-0)
 			* Automatic Cell tower time synchronisation for MQTT message preparation (UTC Time)
 		
 		MQTT Supported Features/Settings:
-			* MQTT Host Name
-			* MQTT Port Number 1883 or 8883
-			* MQTT ClientID
-			* MQTT Username
-			* MQTT Password
-			* MQTT Topic-Publish
+			* mqtt host_ 			- MQTT Hostname
+			* mqtt port_ 			- MQTT Port Number 1883 or 8883
+			* mqtt user_ 			- MQTT Username
+			* mqtt pass_ 			- MQTT Password
+			* mqtt client_ 			- MQTT ClientID
+			* mqtt topic_ 			- MQTT Topic-Publish
+			* mqtt qos_             - MQTT QoS Level (0 or 1 only)
+			* mqtt tls_             - Use MQTT over TLS (MQTTS) 1 = enable, 0 = disable
+			* mqtt json_            - Report in JSON rather than CSV, 1 = enable JSON, 0 = disable and use .csv mode.
+
 		Microsoft Azure IoTHub Support:
+			mqtt azure_          	- MQTT Connection is for Azure IoT Hub, 1 = enable azure mode (disables basic MQTT)
+			mqtt azureconn_	mqtt azureconn HostName=mycloudserver.com;DeviceId=MNCM4xxxx;SharedAccessKey=8Z1Yid4K25AU0pXlGadH0iIR9U9or5DUmwwQ4I0MFo=
 			* SharedAccessKey: Supported
 			* Requires the use of symmetric key authentication thus has a device connection string with the following pattern:
 				HostName=<IOT_HUB_NAME>;DeviceId=<DEVICE_NAME>;SharedAccessKey=<PRIMARY_OR_SECONDARY_KEY>
