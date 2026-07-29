@@ -25,4 +25,15 @@ MNLA4 (Hardware Revision R4-0)
 			* Confirmed Messaging Supported: Yes, subject to local laws, set to disabled by default
 			* Sub Bands Supported for AU915 and US915: FSB1 to FSB8
 
-
+		Power:
+			* DC External Input:
+				* Typical: 20volts (Solar PV)
+				* Range: 0 to 32volts, absolute maximum: 40volts
+			* Internal MPPT Solar Charger:
+				* Configured to charge Li-ion (Li-Cobalt) nominal 3.7volts (4.20volts maximum)
+				* Supports ICT 6B and 13B Battery packs (2x 18650 or 4x 18650)
+				* Up to 1Amp charge rate
+			* Temperature based charge termination:
+				* Battery packs feature built in temperature sensor to monitor battery condition
+				* 0°C to 45° nominal temperature range, below or above the battery charges at a reduced rate
+			* Battery packs feature built in under-voltage, over-voltage, short circuit protection			
